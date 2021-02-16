@@ -47,10 +47,19 @@ def score_display(score):
 
 # START SCREEN
 startFont = pygame.font.Font('freesansbold.ttf', 32)
+teamFont = pygame.font.SysFont('arial.ttf', 35)
 def start():
     # displays: "press space bar to start)
     display = startFont.render(f"PRESS SPACE BAR TO START", True, (255, 255, 255))
+    displayX = teamFont.render(f"Team Members", True, (173, 20, 87))
+    displayA = teamFont.render(f"Md Monir Hossain Showrav-18103142*", True, (255, 255, 255))
+    displayB = teamFont.render(f"Md Ashikul Hossain Shofol-18103156", True, (255, 255, 255))
+    displayC = teamFont.render(f"Tanjila Nur-18203091", True, (255, 255, 255))
     SCREEN.blit(display, (20, 200))
+    SCREEN.blit(displayX, (520, 100))
+    SCREEN.blit(displayA, (520, 150))
+    SCREEN.blit(displayB, (520, 200))
+    SCREEN.blit(displayC, (520, 250))
     pygame.display.update()
 
 # GAME OVER SCREEN
