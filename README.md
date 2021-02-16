@@ -6,7 +6,7 @@ Flappy _Bird Game_ is developed in _Python_ Programming Language and it is a des
 
  1. You have to Install Python 3.6.9 for play this game [Download Python 3.6.9](https://www.python.org/downloads/release/python-369/)
  2. You need to install pygame 1.9.6
-   ```pip install pygame=1.9.6```
+   ```pip install pygame==1.9.6```
    
    
    
